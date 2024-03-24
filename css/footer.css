@@ -17,14 +17,14 @@
 .footerbar{
     display: flex;
     background-color: var(--color-main-black);
+
 }
 .footer_txt_div{
-    display : flex;
+    display : block;
     flex-direction : column;
     justify-content: center;
-    height: 160px;
+    height: 140px;
     width: 1440px;
-
 }
 .footer_title{
     color: #FFFFFF;
@@ -32,13 +32,13 @@
     font-size: 15px;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 40px;
+    text-align: center;
 }
 .footer_menus {
     display : flex;
-    justify-content: space-between;
-
-
+    justify-content: center;
+    margin-bottom: 40px;
 }
 .managers{
     color: #FFFFFF;
@@ -52,7 +52,8 @@
     font-family: "Noto Sans KR";
     font-size: 12px;
     text-decoration: none;
-    margin: auto ;
+    margin-right: 100px ;
+    margin-left: 100px ;
 }
 .LikeLion_Univ{
     color: #FFFFFF;

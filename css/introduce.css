@@ -3,7 +3,7 @@
 }
 @font-face {
     font-family: "continuous";
-    src: url('C:/Users/rhxog/OneDrive/바탕 화면/LikeLionLMS_FE/font/continuous.ttf') format('truetype');
+    src: url('../font/continuous.ttf') format('truetype');
 }
 .page{
     width: 1440px;
@@ -23,6 +23,7 @@
     position:relative;
     border-left-color: #3E3E3E;
     margin-right: 100px;
+    font-family: "continuous";
 }
 .selfie{
     margin-right:auto;

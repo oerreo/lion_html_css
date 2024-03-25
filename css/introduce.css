@@ -2,11 +2,13 @@
     --color-main-green: #64DA68;
 }
 @font-face {
-    font-family: 'continuous';
+    font-family: "continuous";
     src: url('C:/Users/rhxog/OneDrive/바탕 화면/LikeLionLMS_FE/font/continuous.ttf') format('truetype');
 }
 .page{
     width: 1440px;
+    background-color: aliceblue;
+    width: 100%;
 }
 .info_page{
     width: 100%;
@@ -26,7 +28,7 @@
     margin-right:auto;
 }
 .intro_div{
-    font-family: 'continuous';
+    font-family: "continuous";
     margin-left: 100px;
     margin-right: 100px;
     width: 700px;
@@ -138,6 +140,7 @@
       flex-direction: column;
       margin-top: 20px;
       margin-left: auto;
+    margin-right: 150px;
 }
 .movie_btn2{
     width: 200px;
